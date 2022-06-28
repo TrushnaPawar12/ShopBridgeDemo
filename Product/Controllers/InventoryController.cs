@@ -41,7 +41,7 @@ namespace ShopBridgeDemo.Product.Controllers
         }
 
         [HttpPut]
-        [Route("api/Employees/Edit")]
+        [Route("api/Inventory/Edit")]
         public async Task EditAsync([FromBody] Inventory inventory)
         {
             if (ModelState.IsValid)
